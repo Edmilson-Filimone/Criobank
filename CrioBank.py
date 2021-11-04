@@ -26,14 +26,14 @@ def git_busca():
 
 def logo():
     col1, col2, col3 = st.sidebar.columns(3)
-    url = 'https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png'
-    pic_content = requests.get(url).content
-    with open('image.png', 'wb') as file:
-        foto = file.write(pic_content)
-        file.close()
+    #url = 'https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png'
+    #pic_content = requests.get(url).content
+    #with open('image.png', 'wb') as file:
+    #    foto = file.write(pic_content)
+    #    file.close()
 
-    pil = Image.open('image.png')
-    col2.image(pil, use_column_width=True, clamp=True)
+    #pil = Image.open('image.png')
+    col2.markdown(("![](https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png)") [image])
     col1.write('')
 
 
