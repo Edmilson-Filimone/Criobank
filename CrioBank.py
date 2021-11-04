@@ -33,7 +33,7 @@ def logo():
     #    file.close()
 
     #pil = Image.open('image.png')
-    col2.markdown(("![](https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png)"))
+    col2.markdown(![](https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png))
     col1.write('')
 
 
