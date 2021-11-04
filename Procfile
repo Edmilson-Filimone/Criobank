@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run dashb.py
+web: sh setup.sh && streamlit run CrioBank.py
