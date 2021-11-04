@@ -26,7 +26,7 @@ def git_busca():
 
 def logo():
     col1, col2, col3 = st.sidebar.columns(3)
-    url = 'https://github.com/Edmilson-Filimone/datasets/blob/main/image_2021-11-04_115813.png'
+    url = 'https://github.com/Edmilson-Filimone/datasets/blob/main/logo.png'
     pic_content = requests.get(url).content
     with open('image.png', 'wb') as file:
         foto = file.write(pic_content)
